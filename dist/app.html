@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Anime.js Click Animations</title>
+  <style>
+    .image-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
+
+    .image-container img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+	<!-- divをあと二つ作る -->
+  <div class="image-container">
+    <img src="image/pose_pien_uruuru_man.png" class="animate-image">
+    <img src="image/pose_dance_ukareru_woman.png" class="animate-image">
+    <img src="image/pose_koshi_nukeru_kowai_woman.png" class="animate-image">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
