@@ -1,0 +1,32 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: black;
+    }
+    
+    .container {
+	text-align: center;
+    }
+    
+    .box {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	transition: width 0.3s, height 0.3s, border-radius 0.3s, background-color 0.3s;
+	margin-top: 20px;
+	display: inline-block; /* 要素を横に配置するための設定 */
+    }
+    
+    button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	background-color: white;
+	border: none;
+	cursor: pointer;
+    }
+    
